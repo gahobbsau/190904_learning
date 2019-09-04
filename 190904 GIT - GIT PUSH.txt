@@ -1,0 +1,72 @@
+190904 GIT - GIT PUSH
+
+$ git push -u origin master # pushes changes to origin
+
+===
+git-push
+https://git-scm.com/docs/git-push
+
+===
+PUSH SUCCESSFUL
+
+G:\LOCAL\_trial_workingfolder>git push -u origin master
+Enumerating objects: 16, done.
+Counting objects: 100% (16/16), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (16/16), 619.19 KiB | 12.38 MiB/s, done.
+Total 16 (delta 0), reused 0 (delta 0)
+To https://github.com/gahobbsau/190904_learning.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+===
+ERROR 2 - EMAIL RESTRICTION
+
+https://github.com/settings/emails
+> untick setting for "Block command line pushes that expose my email"
+
+
+170412 Meaning of the GitHub message: push declined due to email privacy restrictions
+https://stackoverflow.com/questions/43378060/meaning-of-the-github-message-push-declined-due-to-email-privacy-restrictions
+
+"This is likely caused by a new GitHub setting that blocks command line pushes that expose your email address.
+Try unchecking the "Block command line pushes that expose my email" box in your email settings and then pushing again."
+
+--
+push declined due to email privacy restrictions
+https://github.community/t5/How-to-use-Git-and-GitHub/push-declined-due-to-email-privacy-restrictions/td-p/7660
+
+SOLUTION
+git config --global user.email "myemailaddress@gmail" [Already set]
+git rebase -i
+git commit --amend --reset-author
+git rebase --continue
+git push
+
+I found rebase -i allowed be to edit the commit message but retained the previous (private) email address in the log.
+
+The commit --amend --reset-author seemed to be the easiest way to replace the offending email address.
+
+
+ ! [remote rejected] master -> master (push declined due to email privacy restrictions)
+error: failed to push some refs to 'https://github.com/gahobbsau/190904_learning.git'
+
+
+
+===
+ERROR 1 - NOTHING STAGED
+
+Common mistake when creating new git repo. Error: src refspec master does not match any.
+https://georgik.rocks/common-mistake-when-creating-new-git-repo
+
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/gahobbsau/hello-world'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+
+===

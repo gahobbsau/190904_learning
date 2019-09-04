@@ -1,0 +1,38 @@
+190904 GIT - GIT RESET TO UNDO COMMIT
+
+===
+Reset last commit
+> git reset HEAD~1
+
+Reset the first commit
+> git update-ref -d HEAD
+
+===
+git reset
+https://git-scm.com/docs/git-reset
+
+How can I undo the last commit?
+https://www.git-tower.com/learn/git/faq/undo-last-commit
+
+140704 What is difference between 'git reset --hard HEAD~1' and 'git reset --soft HEAD~1'?
+https://stackoverflow.com/questions/24568936/what-is-difference-between-git-reset-hard-head1-and-git-reset-soft-head#targetText=soft,commit%20you%20%22removed%22%20before.
+
+===
+ERROR
+190904 Error message on $ git reset HEAD~1
+> "fatal: ambiguous argument 'HEAD~1': unknown revision or path not in the working tree.
+"
+
+SOLUTION
+170907 How to revert initial git commit?
+https://stackoverflow.com/questions/6632191/how-to-revert-initial-git-commit
+"You just need to delete the branch you are on. You can't use git branch -D as this has a safety check against doing this. You can use update-ref to do this.
+> git update-ref -d HEAD
+"
+
+180301 Git: fatal: ambiguous argument 'HEAD~': unknown revision or path not in the working tree.
+https://github.com/Microsoft/vscode/issues/44776
+
+"The error occurs because if the last commit is the initial commit (or no parents) of the repository, there is no HEAD~."
+
+===

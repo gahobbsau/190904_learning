@@ -1,0 +1,16 @@
+190904 GIT - REMOTES
+
+===
+2.5 Git Basics - Working with Remotes
+https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes
+
+git-remote
+https://git-scm.com/docs/git-remote
+
+Adding a remote
+https://help.github.com/en/articles/adding-a-remote
+
+Removing a remote
+https://help.github.com/en/articles/removing-a-remote
+
+===

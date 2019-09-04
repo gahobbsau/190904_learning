@@ -1,6 +1,11 @@
 190904 GIT - CONFIGURATION
 
 ===
+Git staging area folder
+> G:/LOCAL/_trial_workingfolder/.git/
+> .git [hidden] subfolder at local working folder
+
+===
 gah@ZBook15G4gaha MINGW64 ~
 $ git config --global user.name "gahobbsau"
 
@@ -17,7 +22,6 @@ filter.lfs.clean=git-lfs clean -- %f
 filter.lfs.smudge=git-lfs smudge -- %f
 filter.lfs.process=git-lfs filter-process
 filter.lfs.required=true
-
 
 
 ===

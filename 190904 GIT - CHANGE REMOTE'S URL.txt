@@ -1,0 +1,9 @@
+190904 GIT - CHANGE REMOTE'S URL
+
+===
+SOLUTION
+> "Open the .git directory and edit the config file where it says [remote "origin"]"
+https://stackoverflow.com/questions/13572191/cannot-remove-remote-origin
+
+
+===

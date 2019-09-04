@@ -1,0 +1,10 @@
+190904 GIT - SYMBOLIC LINKS
+
+===
+170703 The Complete Guide to Creating Symbolic Links (aka Symlinks) on Windows
+https://www.howtogeek.com/howto/16226/complete-guide-to-symbolic-links-symlinks-on-windows-or-linux/
+
+140316 How to set Git staging directory?
+https://stackoverflow.com/questions/22428258/how-to-set-git-staging-directory
+
+===
