@@ -1,0 +1,31 @@
+190904 GIT - TUTORIALS
+
+===
+190105 Learn the Basics of Git in Under 10 Minutes
+https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/
+
+151001 An Intro to Git and GitHub for Beginners (Tutorial)
+https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
+
+190131 How to install and use Git on Windows
+https://www.computerhope.com/issues/ch001927.htm
+
+===
+Chapter 1 - Getting Started
+https://git-scm.com/book/en/v1/Getting-Started
+
+About Version Control
+https://git-scm.com/book/en/v1/Getting-Started-About-Version-Control
+
+.3 Getting Started - Git Basics
+https://git-scm.com/book/en/v1/Getting-Started-Git-Basics
+
+===
+BITBUCKET
+Become a git guru
+https://www.atlassian.com/git/tutorials
+
+Beginner: What is version control
+https://www.atlassian.com/git/tutorials/what-is-version-control
+
+===

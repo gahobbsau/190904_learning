@@ -1,0 +1,7 @@
+190904 GITHUB - DELETING A REPOSITORY
+
+===
+Deleting a repository
+https://help.github.com/en/articles/deleting-a-repository
+
+===

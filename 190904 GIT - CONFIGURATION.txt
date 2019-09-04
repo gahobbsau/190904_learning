@@ -1,0 +1,23 @@
+190904 GIT - CONFIGURATION
+
+===
+gah@ZBook15G4gaha MINGW64 ~
+$ git config --global user.name "gahobbsau"
+
+gah@ZBook15G4gaha MINGW64 ~
+$ git config --global user.email "gahobbsau2@gmail.com"
+
+gah@ZBook15G4gaha MINGW64 ~CD 
+$ git config --global --list
+core.autocrlf=true
+core.excludesfile=C:\Users\gah\Documents\gitignore_global.txt
+user.name=gahobbsau
+user.email=gahobbsau2@gmail.com
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+
+
+
+===
